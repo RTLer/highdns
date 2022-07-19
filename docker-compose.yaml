@@ -5,6 +5,6 @@ services:
       context: .
       target: app
     ports:
-      - 5354:5354/udp
+      - 53:5354/udp
     volumes:
       - ./config.yaml:/config.yaml
